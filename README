@@ -1,35 +1,7 @@
-Environment:
-
-nvidia 1080Ti, cuda 8.0, cudnn 6.0, pytorch 0.2.0
-
-Results:
-
-use_cuda: True, has_backward: False
-method0: 8.669853210449218e-05, batch_size: 8, size: 8, num_rois: 10
-method1: 0.0017281007766723634, batch_size: 8, size: 8, num_rois: 10
-method0: 0.00010861873626708984, batch_size: 8, size: 8, num_rois: 100
-method1: 0.015480890274047851, batch_size: 8, size: 8, num_rois: 100
-method0: 0.0001151275634765625, batch_size: 64, size: 64, num_rois: 100
-method1: 0.015230441093444824, batch_size: 64, size: 64, num_rois: 100
-method0: 0.0007535743713378906, batch_size: 64, size: 64, num_rois: 1000
-method1: 0.1613228702545166, batch_size: 64, size: 64, num_rois: 1000
-method0: 0.00024219512939453126, batch_size: 256, size: 256, num_rois: 100
-method1: 0.01744112491607666, batch_size: 256, size: 256, num_rois: 100
-method0: 0.0008198451995849609, batch_size: 256, size: 256, num_rois: 1000
-method1: 0.1770816421508789, batch_size: 256, size: 256, num_rois: 1000
-
 use_cuda: True, has_backward: True
-method0: 0.00018054485321044922, batch_size: 8, size: 8, num_rois: 10
-method1: 0.006248035430908203, batch_size: 8, size: 8, num_rois: 10
-method0: 0.0003832864761352539, batch_size: 8, size: 8, num_rois: 100
-method1: 0.06724734783172608, batch_size: 8, size: 8, num_rois: 100
-method0: 0.0019525957107543945, batch_size: 64, size: 64, num_rois: 100
-method1: 0.05075277805328369, batch_size: 64, size: 64, num_rois: 100
-method0: 0.0017806100845336914, batch_size: 64, size: 64, num_rois: 1000
-method1: 0.4923022508621216, batch_size: 64, size: 64, num_rois: 1000
-method0: 0.06174903392791748, batch_size: 256, size: 256, num_rois: 100
-method1: 0.43788302898406983, batch_size: 256, size: 256, num_rois: 100
-method0: 0.06140669345855713, batch_size: 256, size: 256, num_rois: 1000
-method1: 3.2348715257644653, batch_size: 256, size: 256, num_rois: 1000
+method0: 0.0344547653198242, batch_size: 1, size: 50, num_rois: 300
+method1: 0.1322056961059570, batch_size: 1, size: 50, num_rois: 300
+method2: 0.1307379817962646, batch_size: 1, size: 50, num_rois: 300
+method3: 0.2016681671142578, batch_size: 1, size: 50, num_rois: 300
 
-# see https://discuss.pytorch.org/t/extract-sub-region-of-conv-feature-map/1480/2
+# see also http://www.cnblogs.com/king-lps/p/9026798.html
