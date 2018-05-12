@@ -4,4 +4,5 @@ method1: 0.1322056961059570, batch_size: 1, size: 50, num_rois: 300
 method2: 0.1307379817962646, batch_size: 1, size: 50, num_rois: 300
 method3: 0.2016681671142578, batch_size: 1, size: 50, num_rois: 300
 
-# see also http://www.cnblogs.com/king-lps/p/9026798.html
+# Reference： https://github.com/blackyang/compare_roi_pooling_speed
+# see also：  http://www.cnblogs.com/king-lps/p/9026798.html
